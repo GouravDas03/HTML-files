@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        div{
+        background-color: powderblue;
+        border: 1px solid black;
+        margin:0 455px 0 460px;
+        padding:5px 0 5px 0;
+        }
+#register{
+background-color: green;
+border: 1px solid powderblack;
+}
+h1 span{
+color: blue;
+}
+</style>
+</head>
+<body background="C:\Users\admin\Downloads\web.jpg" height="1000px" width="1200px"> 
+    <h1 align="center">Welcome to my first HTML form</h1>
+    <table border="2px"height="500px" width="40%" align="center" bgcolor="white">
+        <tr>
+            <td colspan="2" align="center"><b>STUDENT REGISTRATION</b></td>
+        </tr>      
+        <tr>
+            <th><label>Fullname:</label></th>
+            <th><input type="text" id="Fullname" name="Fullname" placeholder="Fullname"></placeholder></th>
+        </tr>
+        <br>
+        <tr>
+            <th><label>Email:</label></th>
+            <th><input type="text" id="Email" name="Email" placeholder="Email"></placeholder></th>
+        </tr>
+        
+        <tr>
+            <th><label>Contact No:</label></th>
+            <th><input type="number" id="Contact No" name="Contact No" placeholder="Contact No"></placeholder></th>
+        </tr>
+        
+        <tr>
+            <th><label>City:</label></th>
+            <th><input type="text" id="City" name="City" placeholder="City"></placeholder></th>
+        </tr>
+        <tr>
+            <th>
+                Gender
+            </th>
+            <th>
+                <input type="radio" id="Gender" name="Gender">Male<input type="radio" id="Gender" name="Gender">Female
+            </th>
+        </tr>
+        <tr>
+            <th>
+                Hobbies
+            </th>
+            <th>
+                <input type="checkbox" name="Hobbies" values="Sport">Sport
+                <input type="checkbox" name="Hobbies" values="Esport">Esport
+                <input type="checkbox" name="Hobbies" values="Streaming">Streaming
+                <input type="checkbox" name="Hobbies" values="Vlogging">Vlogging
+            </th>
+        </tr>
+        <tr>
+           <th><label>Password:</label></th>
+           <th><input type="password" name="password" id="Password" placeholder="Password">
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2" align="center"><input type="submit" name="Register" value="Register"></td>
+        </tr>
+    </table>
+</body>
+</html>

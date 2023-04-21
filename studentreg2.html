@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>STUDENT REGISTRATION</title>
+<style>
+div{
+background-color: magenta;
+border: 1px solid black;
+margin:0 455px 0 460px;
+padding:5px 0 5px 0;
+}
+#register{
+background-color: green;
+border: 1px solid powderblack;
+}
+h1 span{
+color: red;
+}
+</style>
+</head>
+<body>
+    <form>
+        <h1 align="center"><span>STUDENT REGISTRATION</span></h1>
+        <div>
+        <table border ="1"cellpadding="5" align="center">
+        <tr>
+        <th><label>Fullname:</label></th>
+        <th><input type="text" name="name" id="name" placeholder="Full Name" required/></tr>
+        <th><label>Email:</label></th>
+        <th><input type="text" name="email" id="email" placeholder="Email" required/></tr>
+        <th><label>Contact No:</label></th>
+        <th><input type="text" name="contact" id="contact" placeholder="Contact No."required/></tr>
+        <th><label>City:</label></th>
+        <th><input type="text"name="city"id="city" placeholder="City"required/></tr>
+        <th><label>Gender:</label></th>
+        <th><input type ="radio" name ="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female</th>
+        <tr><th><label>Hobbies:</label></th>
+        <th><input type="checkbox"name="hobbies"values="Sport">Sport
+        <input type="checkbox"name="hobbies"values="Esport">Esport
+        <input type="checkbox"name="hobbies"values="Streaming">Streaming
+        <input type="checkbox"name="hobbies"values="Vlogging">Vlogging</th>
+        </tr>
+        <tr>
+        <th><label>Password:</label></th>
+        <th><input type="password" name="password" id="Password" placeholder="Password">
+        </tr>
+        <tr>
+        <td rowspan="2" colspan="2" align="center"><input type="submit" name="Register" value="Register" id ="register"></td>
+    </tr>
+</div>
+</form>
+</body>
+</html>
